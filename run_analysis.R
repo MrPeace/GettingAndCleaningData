@@ -56,4 +56,4 @@ Final_Data <- All_Data %>%
     summarise_all(funs(mean))
 
 # Save the data
-write.table(Final_Data, ".data/Final_Data.txt", row.name=FALSE)
+write.table(Final_Data, "./data/Final_Data.txt", row.name=FALSE)
